@@ -1,0 +1,54 @@
+.card {
+    width: 320px;
+    height: 350px;
+    background: rgb(117,117,117);
+    background: var(--card-color);
+    border-radius: 40px;
+    box-shadow: var(--shadow);
+    transition: all 0.5s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.grid {
+    width: 72%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+        "dbl dbl cal faq"
+        "dnt edu wal wal";
+    gap: 30px;
+    margin: 0px 120px;
+}
+
+.card-1 {
+    grid-area: dbl;
+    width: 100%;
+}
+
+.card-2 {
+    grid-area: cal;
+}
+
+.card-3 {
+    grid-area: faq;
+}
+
+.card-4 {
+    grid-area: dnt;
+}
+
+.card-5 {
+    grid-area: edu;
+}
+
+.card-6 {
+    grid-area: wal;
+    width: 100%;
+}
