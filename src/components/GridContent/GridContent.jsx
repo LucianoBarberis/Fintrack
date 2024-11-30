@@ -35,10 +35,10 @@ export const GridContent = () => {
     return (
         <div className="grid">
             <Card className="card card-1" chart={<LineChart {...lineChartProps} />}></Card>
-            <Card className="card2 card-2" title={"Calendar"} img={"./calendar.jpg"} ></Card>
-            <Card className="card2 card-3" title={"Support & FAQ"} img={"./faq.jpg"} ></Card>
+            <Card className="card2 card-2" title={"Calendar"} img={"./calendar.webp"} ></Card>
+            <Card className="card2 card-3" title={"Support & FAQ"} img={"./faq.webp"} ></Card>
             <Card className="card card-4" chart={<PieChart {...pieChartProps} />}></Card>
-            <Card className="card2 card-5" title={"Financial Education"} img={"./finance.jpg"} ></Card>
+            <Card className="card2 card-5" title={"Financial Education"} img={"./finance.webp"} ></Card>
             <Card className="card card-6" walletTitle={"Your Wallet"} number={"$ 13.000"} ></Card>
         </div>
     );

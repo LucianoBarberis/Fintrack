@@ -22,9 +22,20 @@ ul {
     list-style: none;
     align-items: end;
 }
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
 
 .open {
     width: 220px;
     font-size: 18px;
-
 }
