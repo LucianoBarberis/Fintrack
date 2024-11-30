@@ -1,12 +1,11 @@
 import './App.css'
-import Card from './components/GridContent/Card/Card'
 import { Header } from './components/Header/Header'
 import { GridContent } from './components/GridContent/GridContent'
 import { ToolBar } from './components/ToolBar/ToolBar'
 import { Footer } from './components/Footer/Footer'
+import { Modal } from './components/Modal/Modal'
 
 function App() {
-
   return (
     <div className='container'>
       <Header></Header>
@@ -14,6 +13,7 @@ function App() {
         <ToolBar></ToolBar>
         <GridContent></GridContent>
       </div>
+      <Modal></Modal>
       <Footer></Footer>
     </div>
   )
