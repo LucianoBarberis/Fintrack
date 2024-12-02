@@ -7,7 +7,7 @@ import { Modal } from './components/Modal/Modal'
 import { useState } from 'react'
 
 function App() {
-  const [modal, setModal] = useState(true)
+  const [modal, setModal] = useState(false)
   return (
     <div className='container'>
       <Header></Header>

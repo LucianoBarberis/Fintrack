@@ -12,7 +12,7 @@ export const ToolBar = ({ setModalProp }) => {
                 <li>Menu <button onClick={() => setOpenMenu(!openMenu)}><TbMenu2 size={32}/></button></li>
                 <li>Perfil <TbUser size={32}/></li>
                 <li>Inicio <TbHome size={32}/></li>
-                <li className='txtNew'>Nueva transaccion<button onClick={() => setModalProp(true) }><TbNewSection className='new' color={"white"} size={52}/></button></li>
+                <li className='txtNew'>Nueva transaccion<button onClick={() => setModalProp(true) }><TbNewSection className='new' stroke='white' size={52}/></button></li>
                 <li>Calendario <TbCalendarMonth size={32}/></li>
                 <li>FAQ <TbInfoSquare size={32}/></li>
             </ul>

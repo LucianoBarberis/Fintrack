@@ -15,9 +15,18 @@
     text-align: center;
 }
 
+.imageContainer {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    position: relative;
+}
+
 .image {
     height: 175px;
     width: 320px;
+    object-fit: cover;
+    position: absolute;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 }
