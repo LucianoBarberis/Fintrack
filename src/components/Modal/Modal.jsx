@@ -2,12 +2,12 @@ import { useState } from 'react'
 import React from 'react'
 import './Modal.css'
 
-export const Modal = () => {
-    const [modal, setModal] = useState(false)
+export const Modal = ({ modalProp, setModalProp}) => {
+
     return (
-        <div className={`modal ${modal ? "openedModal" : ""}`}>
+        <div className={`modal ${modalProp ? "openedModal" : ""}`}>
             <div className='modalBox'>
-                <button onClick={() => setModal(false)}>Close</button>
+                <button onClick={() => setModalProp(false)}>Close</button>
             </div>
         </div>
     )
